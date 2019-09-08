@@ -1,6 +1,12 @@
 # Adminpro
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
+## git
+git remote -v
+git remote add origin https://github.com/delfespe/adminpro.git
+git add .
+git commite "Modificaciones"
+git push
 
 ## Development server
 
