@@ -6,6 +6,8 @@ import { PagesComponent } from './pages.component';
 import { SharedModule } from '../shared/shared.module';
 import { PAGES_ROUTE } from './pages.routes';
 
+import { ChartsModule } from 'ng2-charts';
+
 @NgModule({
     declarations:[
         PagesComponent,
@@ -16,11 +18,12 @@ import { PAGES_ROUTE } from './pages.routes';
     exports:[
         DashboardComponent,
         ProgressComponent,
-        Grafica1Component
+        Grafica1Component, 
     ],
     imports:[
         SharedModule,
-        PAGES_ROUTE
+        PAGES_ROUTE,
+        ChartsModule
     ]
 })
 
