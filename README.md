@@ -11,6 +11,10 @@ git push
 ## Git laptop SSH
 git clone git@github.com:delfespe/adminpro.git
 
+## Graficos
+https://valor-software.com/ng2-charts/
+npm install --save ng2-charts
+npm install --save chart.js
 
 ## Development server
 
