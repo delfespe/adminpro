@@ -13,21 +13,24 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
 import { PAGES_ROUTE } from './pages/pages.routes';
 
+//services
+import { SettingsService } from 'src/app/services/settings.service';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
     APP_ROUTES,
     PAGES_ROUTE,
     PageModules,
-    SharedModule
+    SharedModule,
+    
   ],
-  providers: [],
+  providers: [SettingsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
