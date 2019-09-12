@@ -14,7 +14,7 @@ import { RegisterComponent } from './login/register.component';
 import { PAGES_ROUTE } from './pages/pages.routes';
 
 //services
-import { SettingsService } from 'src/app/services/settings.service';
+import { ServicesModule } from 'src/app/services/service.module';
 
 @NgModule({
   declarations: [
@@ -28,9 +28,9 @@ import { SettingsService } from 'src/app/services/settings.service';
     PAGES_ROUTE,
     PageModules,
     SharedModule,
-    
+    ServicesModule
   ],
-  providers: [SettingsService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
