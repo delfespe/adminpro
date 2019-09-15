@@ -6,7 +6,7 @@ import { APP_ROUTES } from './app.routes';
 
 //modules
 import { PageModules } from './pages/pages.module';
-
+import { SharedModule } from './shared/shared.module';
 // temporal
 import { FormsModule } from '@angular/forms';
 
@@ -32,8 +32,9 @@ import { RegisterComponent } from './login/register.component';
   imports: [
     BrowserModule,
     APP_ROUTES,
+    PAGES_ROUTE,
     PageModules,
-    FormsModule,
+    SharedModule,
     ServicesModule
   ],
   providers: [],
