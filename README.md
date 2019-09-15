@@ -4,12 +4,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Git remote
 git remote -v <br />
 git remote add origin https://github.com/delfespe/adminpro.git <br />
+git push  https://github.com/delfespe/adminpro.git
 
 ## Git update
 git add . <br /> 
 git commite "Modificaciones" <br />
 git push <br />
 <br />
+
 # Git sincronizar
 git pull upstream master
 <br />
