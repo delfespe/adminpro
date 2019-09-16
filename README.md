@@ -12,9 +12,12 @@ git commite "Modificaciones" <br />
 git push <br />
 <br />
 
-# Git sincronizar
+## Git sincronizar
 git pull upstream master
 <br />
+-- Remove all local changes from your working copy, 
+git stash save --keep-index
+git stash drop
 
 ## Git laptop SSH
 git clone git@github.com:delfespe/adminpro.git
